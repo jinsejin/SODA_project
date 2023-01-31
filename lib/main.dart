@@ -99,9 +99,6 @@ class BasePage extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Container(
-          height: 200,
-        ),
         Image.asset(imageAsset),
         const Text(
           "Copyright 2023 SODA. All right reserved.",
